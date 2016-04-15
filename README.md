@@ -5,12 +5,12 @@ This is a python script run on your PC or Mac, then you can play your PC's video
 ## FEATURES
 
 - Support Windows, OSX, Linux(Need Python2.7 and Flask)
-- Only Support New 3DS or New3DS XL(Only New3DS browser support HTML5 Videos wiki link)
+- Only Support New 3DS or New3DS XL(Only New3DS browser support HTML5 Videos)
 - Only Support MP4 format ( H.264 - MPEG-4 AVC Video, AAC - ISO / IEC 14496-3 MPEG-4AAC, MP3) and resolution resolution lower than 480P.
 
 ## USAGE
 
-- Install Python 2.7 (Link Python2 not 3! )and Flask(Link).
+- Install Python 2.7 and Flask.
 - Extract 7z file.
 - Put your movie files in static/movie.
 - Open command line in the directory, run "python RUN_Server.py".
