@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# coding: UTF-8
+
 import os
 from flask import Flask
 from flask import render_template
@@ -13,7 +15,8 @@ def list_movies():
     for dirpath, dirnames, filenames in os.walk("./static/movie"):
             for filename in filenames:
                 if os.path.splitext(filename)[-1] == ".mp4":
-                    movies_list.append(filename)
+                    filename_utf8 = unicode(filename, 'utf8')
+                    movies_list.append(filename_utf8)
     return render_template('homepage.html', movies_list=movies_list)
 
 
@@ -22,4 +25,5 @@ def play_movie(movie_name):
     return render_template('player.html', movie_name=movie_name)
 
 if __name__ == '__main__':
+    app.debug = True
     app.run(host='0.0.0.0')
