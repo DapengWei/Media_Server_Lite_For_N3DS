@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Media_Server_Lite_For_N3DS</title>
+</head>
+
+<body>
+
+        <h1>Movie list</h1>
+        <table>
+            {% for movie_name in movies_list %}
+            <tr>
+                <td></td>
+                <td><a href="/player/{{movie_name}}">{{movie_name}}</a></td>
+                <td></td>
+            </tr>
+            {% endfor %}
+        </table>
+
+</body>
+</html>
