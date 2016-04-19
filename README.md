@@ -6,7 +6,7 @@ This is a python script run on your PC or Mac, then you can play your PC's video
 
 - Support Windows, OSX, Linux(Need Python2.7 and Flask)
 - Only Support New 3DS or New3DS XL(Only New3DS browser support HTML5 Videos)
-- Only Support MP4 format ( H.264 - MPEG-4 AVC Video, AAC - ISO / IEC 14496-3 MPEG-4AAC, MP3) and resolution resolution lower than 480P.
+- Only Support MP4 format ( H.264 - MPEG-4 AVC Video, AAC - ISO / IEC 14496-3 MPEG-4AAC, MP3) and resolution lower than 480P.
 
 ## USAGE
 
@@ -22,9 +22,9 @@ This is a python script run on your PC or Mac, then you can play your PC's video
 
 Q:Where can I find MP4 format videos?
 
-A:The MP4 files downloaded from Youtube are supported. Other files you need a transcoder like this.
+A:The MP4 files downloaded from Youtube are supported. Other files you need a transcoder like HandBrake.
 
 
 Q:Why my MP4 files can't be played.
 
-A:Browser only support  H.264 - MPEG-4 AVC Video, AAC - ISO / IEC 14496-3 MPEG-4AAC, MP3, and resolution resolution lower than 480P.
+A:Browser only support  H.264 - MPEG-4 AVC Video, AAC - ISO / IEC 14496-3 MPEG-4AAC, MP3, and resolution lower than 480P.
